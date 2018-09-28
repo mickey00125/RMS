@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27327A3C215DCBEC00497A31 /* OrderedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27327A3B215DCBEC00497A31 /* OrderedTableViewCell.swift */; };
 		2737B129215394FE00AC4D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737B128215394FE00AC4D15 /* AppDelegate.swift */; };
 		2737B12B215394FE00AC4D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737B12A215394FE00AC4D15 /* ViewController.swift */; };
 		2737B12E215394FE00AC4D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2737B12C215394FE00AC4D15 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		2737B1362153950400AC4D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2737B1342153950400AC4D15 /* LaunchScreen.storyboard */; };
 		2737B1412153950400AC4D15 /* RMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737B1402153950400AC4D15 /* RMSTests.swift */; };
 		2737B14C2153950400AC4D15 /* RMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737B14B2153950400AC4D15 /* RMSUITests.swift */; };
+		27CB15EB215B396D00F739F9 /* 下載.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27CB15EA215B396D00F739F9 /* 下載.jpeg */; };
+		27CB15EE215B3D8100F739F9 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB15ED215B3D8100F739F9 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27327A3B215DCBEC00497A31 /* OrderedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedTableViewCell.swift; sourceTree = "<group>"; };
 		2737B125215394FE00AC4D15 /* RMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2737B128215394FE00AC4D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2737B12A215394FE00AC4D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		2737B1472153950400AC4D15 /* RMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2737B14B2153950400AC4D15 /* RMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSUITests.swift; sourceTree = "<group>"; };
 		2737B14D2153950400AC4D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CB15EA215B396D00F739F9 /* 下載.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "下載.jpeg"; sourceTree = "<group>"; };
+		27CB15ED215B3D8100F739F9 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		2737B127215394FE00AC4D15 /* RMS */ = {
 			isa = PBXGroup;
 			children = (
+				27CB15EC215B397900F739F9 /* images */,
 				2737B128215394FE00AC4D15 /* AppDelegate.swift */,
 				2737B12A215394FE00AC4D15 /* ViewController.swift */,
 				2737B12C215394FE00AC4D15 /* Main.storyboard */,
@@ -106,6 +113,8 @@
 				2737B1342153950400AC4D15 /* LaunchScreen.storyboard */,
 				2737B1372153950400AC4D15 /* Info.plist */,
 				2737B12F215394FE00AC4D15 /* RMS.xcdatamodeld */,
+				27CB15ED215B3D8100F739F9 /* MyCollectionViewCell.swift */,
+				27327A3B215DCBEC00497A31 /* OrderedTableViewCell.swift */,
 			);
 			path = RMS;
 			sourceTree = "<group>";
@@ -126,6 +135,14 @@
 				2737B14D2153950400AC4D15 /* Info.plist */,
 			);
 			path = RMSUITests;
+			sourceTree = "<group>";
+		};
+		27CB15EC215B397900F739F9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				27CB15EA215B396D00F739F9 /* 下載.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +252,7 @@
 				2737B1362153950400AC4D15 /* LaunchScreen.storyboard in Resources */,
 				2737B1332153950400AC4D15 /* Assets.xcassets in Resources */,
 				2737B12E215394FE00AC4D15 /* Main.storyboard in Resources */,
+				27CB15EB215B396D00F739F9 /* 下載.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +279,9 @@
 			files = (
 				2737B131215394FE00AC4D15 /* RMS.xcdatamodeld in Sources */,
 				2737B12B215394FE00AC4D15 /* ViewController.swift in Sources */,
+				27CB15EE215B3D8100F739F9 /* MyCollectionViewCell.swift in Sources */,
 				2737B129215394FE00AC4D15 /* AppDelegate.swift in Sources */,
+				27327A3C215DCBEC00497A31 /* OrderedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QVRP8NRC36;
 				INFOPLIST_FILE = RMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.RMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -455,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QVRP8NRC36;
 				INFOPLIST_FILE = RMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.RMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
